@@ -1,0 +1,164 @@
+/** Caja principal del header**/
+@media (max-width: 580px) {
+    header nav ul {
+        flex-direction: column;
+    }
+}
+
+header {
+
+    padding-top: 5px;
+    background-color: bisque;
+
+}
+
+.nav {
+    width: 100%;
+    justify-content: space-between;
+}
+
+/** conjunto de cajita donde se almacena cada etiqueta del menu**/
+nav ul {
+    display: flexbox;
+    justify-content: baseline;
+    list-style: none;
+}
+
+/** cada cajita individual donde se almacena cada etiqueta del menu**/
+nav ul li {
+    padding: 5px 5px;
+    background-color: beige;
+    border-style: double;
+    font-size: 15px;
+}
+
+#foto {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    position: relative;
+}
+
+#info {
+    position: absolute;
+    width: 300px;
+    height: 80px;
+    left: 220px;
+    bottom: 30px;
+    display: flex;
+}
+
+#foto img {
+    min-width: none;
+    max-width: 180px;
+    max-height: 180px;
+    min-height: none;
+    border-radius: 50%;
+    border: 5px solid rgb(98, 225, 213);
+}
+
+#name {
+    display: none;
+    font-size: 25px;
+    font-family: sans-serif;
+    font-style: italic;
+    width: 280px;
+    height: "50px";
+}
+
+#correo {
+    display: none;
+    font-size: 25px;
+    font-family: sans-serif;
+    font-style: italic;
+    width: 300px;
+    height: "50px";
+}
+
+#fecha {
+    display: none;
+    font-size: 25px;
+    font-family: sans-serif;
+    font-style: italic;
+    width: 300px;
+    height: "50px";
+}
+
+#vivo {
+    display: none;
+    font-size: 25px;
+    font-family: sans-serif;
+    font-style: italic;
+    width: 300px;
+    height: "50px";
+}
+
+#tele {
+    display: none;
+    font-size: 25px;
+    font-family: sans-serif;
+    font-style: italic;
+    width: 300px;
+    height: "50px";
+}
+
+.redes {
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+    margin: 10px;
+}
+
+#frase {
+    font-size: 20px;
+    font-style: italic;
+    justify-content: center;
+    display: flex;
+}
+
+#iko {
+    display: flex;
+    justify-content: center;
+}
+
+.linea {
+    width: auto;
+    height: 2px;
+    background-color: aqua;
+    display: flex;
+}
+
+.exper {
+    text-align: center;
+    font-weight: lighter;
+    font-size: xx-large;
+    font-style: oblique;
+    background-color: darkred;
+    color: white;
+}
+
+.contenido {
+    font-size: 20px;
+}
+
+.cont {
+    background-color: bisque;
+}
+/** Importo fondo desdehttps://www.magicpattern.design/ */ 
+.form {
+    background-color: #e5e5f7;
+    opacity: 0.5;
+    background: linear-gradient(135deg, #fff8c455 25%, transparent 25%) -10px 0/ 20px 20px, linear-gradient(225deg, #fff8c4 25%, transparent 25%) -10px 0/ 20px 20px, linear-gradient(315deg, #fff8c455 25%, transparent 25%) 0px 0/ 20px 20px, linear-gradient(45deg, #fff8c4 25%, #e5e5f7 25%) 0px 0/ 20px 20px;
+    display: flex;
+    justify-content: center;
+    padding: 15px 10px;
+    font-size: 20px;
+    border: 2px solid darkred margin-bottom=50px;
+    border-radius: 10px;
+
+}
+
+#forma {
+    display: flex;
+    justify-content: center;
+}
